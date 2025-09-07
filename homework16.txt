@@ -1,3 +1,4 @@
+#Задание 1
 class Kassa:
     def __init__(self, initial_amount=0):
         self.amount = initial_amount
@@ -67,7 +68,7 @@ try:
     k.take_away(5000)
 except ValueError as e:
     print(e)  # Недостаточно денег в кассе
-
+#Задание 2
 # Черепашка
 t = Turtle(0, 0, 2)
 t.go_up()
@@ -83,4 +84,5 @@ try:
     t.degrade()
     t.degrade()
 except ValueError as e:
+
     print(e)  # Нельзя уменьшить s ниже 1
